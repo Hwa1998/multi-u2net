@@ -14,7 +14,7 @@ https://github.com/xuebinqin/U-2-Net
 
 ​	1、加载 作者开源的预训练权重 u2netp.pth
 
-​	2、遍历读取 u2netp.pth 权重的除 sigmoid 以外的每一层
+​	2、移除 u2netp.pth 权重的最后一层
 
 ​	3、保存新的预训练权重
 
