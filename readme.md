@@ -24,7 +24,7 @@ https://github.com/xuebinqin/U-2-Net
 
 ​	1、训练集的数据样式，参考多类别语义分割的 voc 格式
 
-​		JPEGImages(三通道rgb图像) + SegmentationClass(单通道掩码图)
+​		JPEGImages(三通道rgb图像) + SegmentationClass(单通道掩码图，像素值为类别序号值)
 
 ​	2、模型训练：train.py
 
